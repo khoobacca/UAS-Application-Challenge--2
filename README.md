@@ -11,5 +11,13 @@ okay...
 
 imma break thie problem into a couple steps. when i do research i normally break it up into a couple phases.
 1.  concept introduction + basic notes
+2. deeper investigation into necessary topics after general understanding/overview is finished.
 
 another note is that when im researching and learning concepts, I look for applications immediately, and i also keep the learning at a very 'general' level. i mean i dont fixate on tiny details because I found that throws me off. If i see the bigger picture then Im able to break the problem down into more manageble chunks.
+
+anyways heres what I now know:
+
+lift (L) is the force opposing weight of the object and hold the aero-whatever we want int hte air.
+
+Theres also these things called coefficient of lift (cL) and angle of attack (AoA). ill leave these alone for now.
+
