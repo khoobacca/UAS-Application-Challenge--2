@@ -35,18 +35,18 @@ Theres also these things called coefficient of lift (cL) and angle of attack (Ao
 
 I found the lift equation to be:
 
-L = C * 1/2 * rho * V^2 * S
+> L = C * 1/2 * rho * V^2 * S
 
 , which describes that lift is a function of wing shape, angle of attack, air density (rho), free stream velocity (V), and the surface area of the wing itself (S). Pretty self explanatory as is, but it turns out that the coefficient of lift (C), is a function itself of the wing shape and the angle of attack. The shape of wing shouldnt change shape mid flight, which means that we can assume this is constant, and the angle of attack is what affects the coefficient of lift.
 
 if i rearrange the formula to get C i get:
 
-C(AoA) = 2 * L / (rho * V^2 * S )
+> C(AoA) = 2 * L / (rho * V^2 * S )
 
 apparently people test their wings and stuff at this point in an air tunnel with this exact equation. kinda cool. ill prob use matlab and graph it out with your given values. if im understanding this correctly, since our changing variable (i forgot the formal name) is the angle of attack, we can graph the coefficient of lift as a function of angle of attack.
 
-x_axis = AoA
-y_axis = C
+> x_axis = AoA
+> y_axis = C
 
 something like this and code the formula.
 
@@ -63,7 +63,7 @@ Im assuming this is gravity lmao. i dont want to overcomplicate my process right
 
 i guess thatsall im assuming so heres the formula:
 
-F(g) = mg
+> F(g) = mg
 
 i can graph weight due to 
 
@@ -77,11 +77,11 @@ after research, theres many types of drag:
 
 I found this equation for 'hydrodynamic force' which is fancy for the actual force of drag. cD is the coefficient of drag, and im using the variable C here.
 
-D = C * 1/2 * rho * u^2 * A
+> D = C * 1/2 * rho * u^2 * A
 
 this can be rearranged (like the lift equation), to calculate the drag coefficient:
 
-C = 2 * D / (rho * u^2 * A)
+> C = 2 * D / (rho * u^2 * A)
 
 with this equation, i can now calculate drag for different object sizes going different velocities. (rho) in this case is fluid density, which for us is air, (u) is flow speed, and A is the surface area of the object that we're analyzing.
 
@@ -97,11 +97,11 @@ okay... the k factor seems to be this thing relate to an aspect ratio???????
 
 heres an equation i found:
 
-k = 1/(pi * e * aspect_ratio)
+> k = 1/(pi * e * aspect_ratio)
 
 this aspect ratio is simple. its the square of the wingspan over the wing area.
 
-aspect_ratio = wingspan^2 / wing_area
+> aspect_ratio = wingspan^2 / wing_area
 
 DAMN turns out e isnt really e. its another thing called the oswald efficiency factor. bruh. imma do more research.
 
@@ -110,7 +110,7 @@ after even more research, apparently its some sort of efficiency factor. it acco
 ## Thrust
 this is opposite to drag. its the force that makes the whatever we want go anywhere we want. thrust happens because we're accelerating matter behind it. newtons 3rd law. heres the equation:
 
-T = v (dm/dt)
+> T = v (dm/dt)
 
 basically something like a plane has to accelerate hot air and fuel with enough force to accelerate the plane itself forward.
 
