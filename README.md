@@ -52,6 +52,11 @@ something like this and code the formula.
 
 IN LAYMENS (for myself) : it is unitless quantity that compares lifting ability of wings at a given angle of attack. its specific for every wing design.
 
+i just did more research and i found this equation. it should be more helpful:
+> cL = lift_slope * AoA + cL(0)
+
+the cL(0) is the coefficient of lift at takeoff which is easy to calculate bc ig you can assume that lift force = weight at that point in time.
+
 ## Weight
 Im assuming this is gravity lmao. i dont want to overcomplicate my process right now and for simplicity ill assume the following:
 - even weight distribution
@@ -82,6 +87,26 @@ with this equation, i can now calculate drag for different object sizes going di
 
 i can graph drag force due to velocity.
 
+### research on drag coefficient, oswald, and k???
+did more research and i found another equation:
+> cD = cD(0) * cL(0) * constant???????
+
+the cL(0) is the coefficient of lift at takeoff. it builds off eachother. scary. cD(0) is drag at takeoff, and its being multiplied by some constant k????
+
+okay... the k factor seems to be this thing relate to an aspect ratio???????
+
+heres an equation i found:
+
+k = 1/(pi * e * aspect_ratio)
+
+this aspect ratio is simple. its the square of the wingspan over the wing area.
+
+aspect_ratio = wingspan^2 / wing_area
+
+DAMN turns out e isnt really e. its another thing called the oswald efficiency factor. bruh. imma do more research.
+
+after even more research, apparently its some sort of efficiency factor. it accounts for non ideal behaviour and apparently e is normally 0.7-1 for most subsonic aircraft wings. 1 is most ideal, so for my values ill use the least ideal lmao. e for me is now gonna be 0.7
+
 ## Thrust
 this is opposite to drag. its the force that makes the whatever we want go anywhere we want. thrust happens because we're accelerating matter behind it. newtons 3rd law. heres the equation:
 
@@ -107,6 +132,11 @@ note: AoA at 4.5m/s was 6deg as an instantaneous change, so ill model everything
 > see everything above haha
 
 2. The maximum speed the airplane can go
+
+> max speed is when drag = thrust
+> takeoff: thrust > drag, bc we need it to accelerate
+> drag increases as it speeds up until it reaches a speed where the drag overtakes the thrust
+
 3. The horizontal speed at which vertical forces balance (ignoring vertical speed)
 4. A graph showing the acceleration of the aircraft over time
 5. A graph showing the velocity of the aircraft over time
