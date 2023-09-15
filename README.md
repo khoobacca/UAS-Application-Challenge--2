@@ -9,7 +9,7 @@ tbh I did a majority of the application last year when I applied, so I submitted
 
 okay...
 
-imma break thie problem into a couple steps. when i do research i normally break it up into a couple phases.
+imma break this problem into a couple steps. when i do research i normally break it up into a couple phases.
 1.  concept introduction + basic notes
 2. deeper investigation into necessary topics after general understanding/overview is finished.
 
@@ -60,6 +60,8 @@ i guess thatsall im assuming so heres the formula:
 
 F(g) = mg
 
+i can graph weight due to 
+
 ## Drag
 im going to initially assume that this is similar to the lift how it depends on angle of attack. i also know drag opposes thrust
 
@@ -68,3 +70,33 @@ after research, theres many types of drag:
 - parasite drag
 - form drag, skin friction drag, interference drag, and so on.
 
+I found this equation for 'hydrodynamic force' which is fancy for the actual force of drag. cD is the coefficient of drag, and im using the variable C here.
+
+D = C * 1/2 * rho * u^2 * A
+
+this can be rearranged (like the lift equation), to calculate the drag coefficient:
+
+C = 2 * D / (rho * u^2 * A)
+
+with this equation, i can now calculate drag for different object sizes going different velocities. (rho) in this case is fluid density, which for us is air, (u) is flow speed, and A is the surface area of the object that we're analyzing.
+
+i can graph drag force due to velocity.
+
+## Thrust
+this is opposite to drag. its the force that makes the whatever we want go anywhere we want. thrust happens because we're accelerating matter behind it. newtons 3rd law. heres the equation:
+
+T = v (dm/dt)
+
+basically something like a plane has to accelerate hot air and fuel with enough force to accelerate the plane itself forward.
+
+if im right we can graph thrust force (which will help overcome drag and gravity) due to velocity.
+
+
+# update
+scratch everything about what i said about graphing up above, heres what makes more sense:
+
+1. graph and model to drag and lift coefficients due to the angle of attack
+2. graph the thrust AND drag due to velocity
+
+note: idk what to do about weight... ill just graph the mass to weight ratios of the substances i provided in challengem #1.b
+note: AoA at 4.5m/s was 6deg as an instantaneous change, so ill model everything based on this.
