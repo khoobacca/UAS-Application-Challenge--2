@@ -100,3 +100,16 @@ scratch everything about what i said about graphing up above, heres what makes m
 
 note: idk what to do about weight... ill just graph the mass to weight ratios of the substances i provided in challengem #1.b
 note: AoA at 4.5m/s was 6deg as an instantaneous change, so ill model everything based on this.
+
+# the questions:
+1. A list of information you used and their sources (e.g. formulas, code blocks, etc.)
+
+> see everything above haha
+
+2. The maximum speed the airplane can go
+3. The horizontal speed at which vertical forces balance (ignoring vertical speed)
+4. A graph showing the acceleration of the aircraft over time
+5. A graph showing the velocity of the aircraft over time
+6. A graph showing the takeoff trajectory of the airplane
+7. The minimum runway length for takeoff
+8. Factor in ground effect into the takeoff roll and redo graphs for 4 - 7
