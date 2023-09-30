@@ -1,9 +1,10 @@
+IM using
+
 ## High Level Drone Layout
 - pick + find different vtol layouts
 - where does payload go?
 - what has best flight characteristics
     ex: - battery is a bit ahead of cg
-
 
 # Center Grav
 - cg payload under cg aircraft
