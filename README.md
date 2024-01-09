@@ -1,5 +1,8 @@
 # Takeoff Simulator
 
+DISCLAIMER: I found several better programs to test flight. This program is a flop :)
+I stsarted usign XFLR5 and XFOIL instead.
+
 ## Thoughts:
 
 tbh I did a majority of the application last year when I applied, so I submitted that for the 24 hour window, and I want to take on this new challenge just to see what I can do. For now, I'll put my research here along with my thought process. Here goes nothing:
